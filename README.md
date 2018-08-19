@@ -1,12 +1,14 @@
 # React Atomic Seed
 
-A boilerplate for building React apps based on create-react-app using atomic components architecture.
+A boilerplate for building React apps based on create-react-app using atomic components architecture.<br>
+Also includes atomic components scaffolding.
 
 ## What you get
 * create-react-app ([link](https://github.com/facebook/create-react-app#whats-included))
 * atomic components architecture ([atomic design](http://bradfrost.com/blog/post/atomic-web-design/))
 * prop-types ([link](https://www.npmjs.com/package/prop-types))
 * normalize.css ([link](https://github.com/necolas/normalize.css))
+* atomic components scaffolding
 
 ## Folder Structure
 After checkout, your project should look like this:
