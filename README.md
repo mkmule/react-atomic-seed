@@ -38,6 +38,14 @@ my-app/
 git clone --depth=1 https://github.com/sdqwerty/react-atomic-seed my-app
 ```
 
+### Launch
+Examples below use `yarn`, but `npm` can be used as well.
+
+```
+yarn install
+yarn start
+```
+
 ## Build scripts
 
 ### `yarn start`
@@ -62,7 +70,8 @@ Your app is ready to be deployed!
 
 ## Scaffolding scripts
 Every script below will generate a stateful React component with empty prop types template.<br>
-If you do not need use them, simply remove. Also, if your component is stateless and does not use life-cycle hooks you can convert it to function.
+If you do not need use them, simply remove. Also, if your component is stateless and does not use life-cycle hooks you can convert it to function.<br>
+In case of `npm`, commands require some changes, ex: `npm run atom -- --name AtomNameCamelCase`.
 
 ### `yarn atom --name AtomNameCamelCase`
 Generates an atom, the smallest possible component.
