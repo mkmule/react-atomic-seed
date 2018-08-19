@@ -5,10 +5,9 @@ Here live atomic components, split into folders.
 ```
 atoms/
   Atom/
-    Atom.js
-    Atom.css
-    Atom.test.js
-  index.js
+    AtomExample.js
+    AtomExample.css
+    AtomExample.test.js
 molecules/
 organisms/
 pages/

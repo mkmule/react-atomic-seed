@@ -57,21 +57,20 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-### `yarn atom`
+### `yarn atom --name AtomNameCamelCase`
 Generates an atom, the smallest possible component.
 
-### `yarn molecule` 
+### `yarn molecule --name MoleculeNameCamelCase` 
 Generates a molecule component.<br>
 Molecules are groups of atoms bonded together and are the smallest fundamental units of a compound.
 
-### `yarn organism`
+### `yarn organism --name OrganismNameCamelCase`
 Generates an organism component.<br>
 Organisms are groups of molecules joined together to form a relatively complex, distinct section of an interface.
 
-### `yarn page`
+### `yarn page --name PageNameCamelCase`
 Generates an page component.<br>
 Pages consist mostly of groups of organisms stitched together to form pages.<br>
-
 
 
 ## Credits
