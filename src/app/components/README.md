@@ -1,5 +1,6 @@
 # Atomic Components
-Here live atomic components, split into folders.
+Here live atomic components, split into folders.<br>
+An ```index.js``` file imports all components and exports them by type (Atoms, Molecules, etc).
 
 ## Folder Structure
 ```

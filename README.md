@@ -5,6 +5,7 @@ A boilerplate for building React apps based on create-react-app using atomic com
 ## What you get
 * create-react-app ([link](https://github.com/facebook/create-react-app#whats-included))
 * atomic components architecture ([atomic design](http://bradfrost.com/blog/post/atomic-web-design/))
+* prop-types ([link](https://www.npmjs.com/package/prop-types))
 * normalize.css ([link](https://github.com/necolas/normalize.css))
 
 ## Folder Structure
@@ -35,7 +36,7 @@ my-app/
 git clone --depth=1 https://github.com/sdqwerty/react-atomic-seed my-app
 ```
 
-## npm scripts
+## Build scripts
 
 ### `yarn start`
 
@@ -56,6 +57,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+## Scaffolding scripts
+Every script below will generate a stateful React component with empty prop types template.<br>
+If you do not need use them, simply remove. Also, if your component is stateless and does not use life-cycle hooks you can convert it to function.
 
 ### `yarn atom --name AtomNameCamelCase`
 Generates an atom, the smallest possible component.
