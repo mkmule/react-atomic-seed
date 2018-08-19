@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
@@ -12,6 +13,18 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "atom": "gulp atom",
+    "molecule": "gulp molecule",
+    "organism": "gulp organism",
+    "page": "gulp page"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-template": "^5.0.0",
+    "merge-stream": "^1.0.1",
+    "path": "^0.12.7",
+    "yarg": "^1.0.8"
   }
 }
