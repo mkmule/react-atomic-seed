@@ -11,17 +11,15 @@ import Header from './organisms/Header/Header';
 import Home from './pages/Home/Home';
 
 // ------------------------ EXPORTS ------------------------
-export const Atoms = {
+export {
+  // Atoms
   Heading,
   Logo,
   Paragraph,
-};
-// export const Molecules = {
+  // Molecules
 
-// };
-export const Organisms = {
+  // Organisms
   Header,
-};
-export const Pages = {
+  // Pages
   Home,
 };

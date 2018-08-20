@@ -1,14 +1,14 @@
 import React from 'react';
 
 import './Header.css';
-import { Atoms } from '../../index'
+import { Logo, Heading } from '../../index'
 
 class Header extends React.Component {
   render() {
     return (
       <header className="header">
-        <Atoms.Logo />
-        <Atoms.Heading>Welcome to React</Atoms.Heading>
+        <Logo />
+        <Heading>Welcome to React</Heading>
       </header>
     );
   }
