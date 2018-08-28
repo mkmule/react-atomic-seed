@@ -54,29 +54,23 @@ const generateComponent = (name, dest) => {
 
   return merge(component, style, test);
 };
+const generateTask = (destPrefix, destSuffix) => {
+  const name = yargs.argv.name;
+  const dest = path.join(path.join(`${destPrefix}/${destSuffix}`), name);
+
+  return generateComponent(name, dest);
+};
 
 // Tasks
 gulp.task('atom', () => {
-  const name = yargs.argv.name;
-  const dest = path.join(path.join(`${componentsPath}/atoms`), name);
-
-  return generateComponent(name, dest);
+  return generateTask(componentsPath, 'atoms');
 });
 gulp.task('molecule', () => {
-  const name = yargs.argv.name;
-  const dest = path.join(path.join(`${componentsPath}/molecules`), name);
-
-  return generateComponent(name, dest);
+  return generateTask(componentsPath, 'molecules');
 });
 gulp.task('organism', () => {
-  const name = yargs.argv.name;
-  const dest = path.join(path.join(`${componentsPath}/organisms`), name);
-
-  return generateComponent(name, dest);
+  return generateTask(componentsPath, 'organisms');
 });
 gulp.task('page', () => {
-  const name = yargs.argv.name;
-  const dest = path.join(path.join(`${componentsPath}/pages`), name);
-
-  return generateComponent(name, dest);
+  return generateTask(componentsPath, 'pages');
 });
