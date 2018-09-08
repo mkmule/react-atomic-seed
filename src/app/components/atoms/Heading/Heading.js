@@ -6,11 +6,7 @@ class Heading extends React.Component {
   render() {
     const { children } = this.props;
 
-    return (
-      <div className="heading">
-        {children}
-      </div>
-    );
+    return <div className="heading">{children}</div>;
   }
 }
 

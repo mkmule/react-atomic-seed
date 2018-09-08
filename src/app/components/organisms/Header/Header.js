@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Header.css';
-import { Logo, Heading } from '../../index'
+import { Logo, Heading } from '../../index';
 
 class Header extends React.Component {
   render() {

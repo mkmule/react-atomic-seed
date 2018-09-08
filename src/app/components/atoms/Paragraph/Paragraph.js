@@ -6,11 +6,7 @@ class Paragraph extends React.Component {
   render() {
     const { children } = this.props;
 
-    return (
-      <p className="paragraph">
-        {children}
-      </p>
-    );
+    return <p className="paragraph">{children}</p>;
   }
 }
 
