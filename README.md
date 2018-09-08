@@ -8,6 +8,8 @@ Also includes atomic components scaffolding.
 * atomic components architecture ([atomic design](http://bradfrost.com/blog/post/atomic-web-design/))
 * prop-types ([link](https://www.npmjs.com/package/prop-types))
 * normalize.css ([link](https://github.com/necolas/normalize.css))
+* react-router ([link](https://reacttraining.com/react-router/))
+* prettier ([link](https://prettier.io/))
 * atomic components scaffolding
 
 ## Folder Structure
