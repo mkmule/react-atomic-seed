@@ -5,9 +5,7 @@ import './Logo.css';
 
 class Logo extends React.Component {
   render() {
-    return (
-      <img src={logo} className="logo" alt="logo" />
-    );
+    return <img src={logo} className="logo" alt="logo" />;
   }
 }
 
